@@ -1,0 +1,10 @@
+[package]
+name = "mandelbrot_concurrency"
+version = "0.1.0"
+authors = ["Adam Hott <adam@adamhott.io>"]
+edition = "2018"
+
+[dependencies]
+num = "0.4"
+image = "0.23"
+rayon = "1"
