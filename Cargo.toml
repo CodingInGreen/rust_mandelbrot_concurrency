@@ -1,5 +1,5 @@
 [package]
-name = "mandelbrot_concurrency"
+name = "rust_mandelbrot_concurrency"
 version = "0.1.0"
 authors = ["Adam Hott <adam@adamhott.io>"]
 edition = "2018"
