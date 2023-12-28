@@ -9,25 +9,25 @@ It uses the Rayon library. Rayon provides a *parallel iterator* API that makes t
 
 ## Examples
 
-###Mandelbrot Set###
+### Mandelbrot Set
 `cargo run mandel.png 1000x750 -1.20,0.35 -1,0.20`
 
-###Sandy beach###
+### Sandy beach
 `cargo run beach.png 1000x750 -0.99,0.50 -1,0.25`
 
-###Zooming into the boundary near the main cardioid###
+### Zooming into the boundary near the main cardioid
 `cargo run zoom.png 1000x750 -0.75,0.1 -0.74,0.11`
 
-###Exploring the Seahorse Valley###
+### Exploring the Seahorse Valley
 `cargo run seahorse.png 1000x750 -0.746,0.095 -0.745,0.096`
 
-###Complex plane regions with fine, filament-like structures###
+### Complex plane regions with fine, filament-like structures
 `cargo run filament.png 1000x750 -0.22,0.70 -0.21,0.71`
 
-###Areas where the set has 'whisps' that are evocative of smoke tendrils ###
+### Areas where the set has 'whisps' that are evocative of smoke tendrils
 `cargo run whisps.png 1000x750 -1.5,0.02 -1.4,0.03`
 
-###Structures being sucked into a black hole###
+### Structures being sucked into a black hole
 `cargo run blackhole.png 1000x750 -0.748,0.1 -0.747,0.101`
 
 ## License
